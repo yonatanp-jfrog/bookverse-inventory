@@ -168,7 +168,7 @@ class AppTrustClient:
         timeout_seconds: Network timeout for API operations (default: 30)
     
     Example:
-        >>> client = AppTrustClient("https://swampupsec.jfrog.io", "token", 30)
+        >>> client = AppTrustClient("https://apptrusttraining1.jfrog.io", "token", 30)
         >>> versions = client.list_application_versions("bookverse-inventory")
         >>> client.rollback_application_version("bookverse-inventory", "1.2.3")
     """
@@ -586,7 +586,7 @@ def main() -> int:
         print("  1. Set JFROG_URL environment variable (recommended for CI)", file=sys.stderr)
         print("  2. Set APPTRUST_BASE_URL environment variable", file=sys.stderr)
         print("  3. Use --base-url argument", file=sys.stderr)
-        print("🔍 Example: export JFROG_URL='https://swampupsec.jfrog.io'", file=sys.stderr)
+        print("🔍 Example: export JFROG_URL='https://apptrusttraining1.jfrog.io'", file=sys.stderr)
         return 2
 
     token = args.token or get_auth_token()
