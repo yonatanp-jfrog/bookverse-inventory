@@ -84,8 +84,8 @@ Perfect for demonstrating a realistic bookshop inventory system!
 ## Required repository variables
 
 - `PROJECT_KEY`: `bookverse`
-- `DOCKER_REGISTRY`: e.g., `releases.jfrog.io` (or your Artifactory Docker registry host)
-- `JFROG_URL`: e.g., `https://releases.jfrog.io`
+- `DOCKER_REGISTRY`: e.g., `swampupsec.jfrog.io` (or your Artifactory Docker registry host)
+- `JFROG_URL`: e.g., `https://swampupsec.jfrog.io`
 
 ## Required repository secrets
 
